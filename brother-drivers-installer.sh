@@ -4,6 +4,7 @@
 . /lib/lsb/init-functions
 
 MODEL_NAME=$1
+CONNECTION=$2
 USER=${SUDO_USER}
 DIR=$(pwd)/$(dirname $0)
 TEMP_DIR="${DIR}/packages"
